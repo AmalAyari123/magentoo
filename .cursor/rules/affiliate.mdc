@@ -1,0 +1,674 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+Mageplaza Affiliate extension for Magento 2 is the greater choice than ever if you want to build an Affiliate program that is crazy enough to drive traffic and sales increase promptly, get qualified leads, and also enhance your brand awareness. Our affiliate program allows you to pay affiliates commissions.
+
+Mageplaza Affiliate User Guide will provide detailed instructions on how to use it on the frontend and how to configure it on the backend.
+Outstanding Features
+ULT	Outstanding features	Description
+1	Create effective affiliate marketing campaigns at a low cost	
+
+Create and manage affiliate marketing programs: Allow admins to create and manage affiliate marketing programs with options like percentage or flat commissions. This marketing method will encourage affiliates to promote products across the Internet and across multiple sales channels, helping to drive sales, increase traffic, bring in quality leads, and improve SEO rankings.
+
+"Refer a friend" feature:
+
+- Allow affiliates to easily refer friends across multiple channels to reach a wider audience. They can send referral URLs and invitations via email, share on social media with over 250 social buttons, refer friends on Product Detail and Product List pages, and embed snippets on affiliate websites. This is a low-cost marketing method that many businesses are using to promote their brand.
+
+- Allow you to place attractive banners and referral links right on your Affiliate profile pages. This eye-catching display will attract more clicks, driving visitors straight to your store.
+
+Unlimited Affiliate Program:
+
+- Store owners can launch as many affiliate marketing programs as possible without limits, ensuring they suit different groups.
+
+- Promote your affiliates naturally by adding multiple commission tiers with different benefits.
+2	Provide an absolutely transparent and easy-to-use affiliate marketing network for affiliates	
+
+Providing a separate page for payment requests helps affiliates check withdrawal history and receive commission payments more conveniently. This creates transparency in receiving commissions, creates trust, and attracts affiliates.
+
+Automatic email notification to affiliates about their commission status, including balance updates, affiliate transactions, withdrawal status, and rejected/ canceled requests. This feature will keep affiliates updated on any changes that arise so they can address them promptly.
+
+Additionally, admins can easily display commission expiration times to ensure transparency.
+3	User-friendly and effective marketing strategy management interface for admin	
+
+Provide a clear and easy-to-use dashboard for administrators, allowing them to track campaign performance and revenue in detail and in a timely manner:
+
+- Flexible payment request management: Admins can configure when their next affiliates are eligible to receive commissions (possibly when the referred orders are completed). This fast reward system ensures that affiliates are credited to their limits quickly, keeping them happy with the affiliate program. Additionally, store owners can set commissions to be deducted from affiliate balances when customers refund or cancel orders.
+
+- Timely rules and restrictions settings: Admins can make specific adjustments to affiliate earnings withdrawals as well as changes or withdrawal requests from affiliates. Owners can customize important parameters such as the minimum balance to request a withdrawal and the minimum/maximum withdrawal amount. Customizing limits allows owners to adjust the withdrawal process and ensure compliance with financial policies, maintain stability and manage the affiliate program effectively.
+
+- Automatic email to admin in time: Immediately notify the administrator whenever a withdrawal request and registration are made. This feature not only helps the store owner to know about new members immediately but also provides a means to effectively manage the related payment fees.
+
+- Admin can backup link data when there is any change in the system. The Import and Export functions have also been added. Stores can import link data from other systems as well as export existing link data easily.
+4	Flexible Payment	Allow affiliates to withdraw their commissions using the most popular and secure payment methods, including PayPal, offline payments, bank transfers, and Skrill. This increases customer and affiliate reach.
+5	Track affiliate program performance in detail	
+
+The integrated banner reporting module provides detailed click and impression data for each banner. Based on this important information, store administrators can access banner performance while affiliates can optimize advertising strategies. With data-driven insights, users can increase click-through rates and improve the overall success of their affiliate program.
+
+Store owners can check all data related to affiliate actions through program reports. With this feature, store owners can know everything at regular intervals, including best-selling products, affiliate accounts, and sales.
+Installation Guide
+
+We offer two methods for installing our plugins: the Copy & Paste method and the Composer method. Please follow the detailed instructions provided below.
+Method 1: Installation via Copy & Paste
+
+To install our plugins using the Copy & Paste method, kindly follow the instructions at the link below:
+
+How to Install Magento 2 Extension via Copy & Paste
+Method 2: Installation via Composer
+
+Composer name: mageplaza/module-affiliate-ultimate
+
+To install our extensions using Composer, please refer to the comprehensive guide at the link below:
+
+How to Install Magento Extension via Composer
+
+By following these guides, you can ensure that the installation process is handled correctly, allowing you to fully utilize the features and benefits of our plugins.
+Module Update Guide
+
+Keeping your module updated ensures optimal performance. Follow one of these steps to update your module:
+
+    By Account Dashboard: Log in to your Mageplaza account > My Licenses > Download > choose the latest version from the popup.
+    By composer: Kindly use the following commands to update the module via composer
+
+composer require mageplaza/module-affiliate-ultimate
+php bin/magento setup:upgrade
+php bin/magento setup:di:compile
+
+Updating a module by Composer ensures efficient dependency management, version control, and integration with development tools, making the process faster and more reliable.
+How to Use
+
+After installing Affiliate module, the Affiliate link is available on the footer of your site. Click on the link and go to the Affiliate Home Page.
+Affiliate Home Page
+
+Affiliate Home Page is already set up with CMS Block, including Welcome Message and How does the Affiliate Program work? If you want to change the text, it is possible to edit from the backend. In addition, all active Affiliate Programs will be displayed on the Affiliate Home Page.
+
+Look at the left panel on the page; the customer can sign up to become an affiliate.
+
+My Affiliate
+
+Each affiliate can manage every credit information such as available balance, holding balance, total earned, total paid, and all transactions related to the account are listed in detail.
+
+    Credit Information: Display Available Balance, Holding Balance, Total Commission, and Total Withdrawal
+    Balance Report
+
+    Policy
+
+Campaigns
+
+Campaigns, Commission, Discount, Coupon Code, Valid Time, Copy Referral Link button, and More Details will be shown here:
+
+Affiliate Links and Banners
+
+Affiliate module by Mageplaza allows affiliates to refer friends via referral URL, code and email.
+
+Just insert friends' email addresses together with a message to send invitations instantly on the Affiliate Links and Banners page. Besides that, they can edit the Referral Code or share Referal URL via social media.
+
+Customers can edit the Referral Code in this section:
+
+Banners​
+
+At the Banner Page, all available banners according to each campaign will be listed here:
+
+When clicking on “Get Banner link”, the HTML and Banner Link will show as below:
+
+In this Ultimate version, the Report for the Banner on Frontend/ Backend for each campaign is shown as follows:
+
+My Withdrawal Page​
+
+Mageplaza Affiliate supports offline payment and PayPal payment for the withdrawal. You can check the 10 most recent withdrawals. Each created withdrawal will be saved and managed in Withdraw History. Let's follow its status to know where the request is in progress.
+Balance History Page​
+
+Affiliate allows you to check Commission Logs with detailed information about the affiliate account's commission receipt, including time, campaigns, status, customer orders, product, total sales, and commission. Besides that, the Withdraw History is also displayed to record affiliate account withdrawal details (Amount, Fee, Withdraw Method, Withdraw Description, Status, and so on).
+
+Commission Logs and Withdraw History are displayed in the following screenshot:
+
+Report Page
+
+Affiliate accounts can see the balance reports for each purchase here
+
+Setting Page​
+
+When the affiliate account selects which email to receive, that email will be sent.
+How to Configure
+
+From the Admin Panel, go to Mageplaza Extensions > Affiliate > Configuration
+
+1. Configuration
+
+In this section, the admin can set up general module settings, status settings, discount code formats and affiliate links as well as general policies and affiliate account types.
+
+1.1. General
+
+    Enable: Choose Yes to apply the feature of the module
+
+1.1.1. Advanced configuration
+
+    Cookie Expiration
+
+        Enter the number of days to store cookies of this program.
+
+        If you skip it, the default (365) is used, which means Lifetime Commissions can be active.
+
+    Allow overriding cookies: Choose Yes to override the Affiliate code when many Affiliates refer a customer.
+
+    Enable Banner: If Yes, the banner will be shown on the Affiliate Links and Banners page on the frontend.
+
+    Show Report for Banner on Frontend: If Yes, it will show the impressions and customer clicks on each banner report.
+
+    Show Affiliate link on: Choose the display position of the Affiliate link
+
+        Show Affiliate link on = Footer Link: Display the Affiliate link at the bottom of the page
+
+        Show Affiliate link on = Top Link: Display the Affiliate link at the top of the page along with the link
+
+    My Account
+
+        You can choose to display in both positions
+
+        If the admin does not choose the position to display the Affiliate link, the link only shows on Frontend of the My Account Page when customers log in.
+
+    Custom CSS
+
+        Admin can freely customize the display of the Affiliate site
+
+        Supports HTML, CSS
+
+    Traffic Source Statistics Page Content: Set the Page Content that you want to statisticize the Traffic Source.
+
+    Enable Referral History: Select Yes to show Refer History page in My Affiliate. Display information of customers invited using Refer URL or Coupon Code, including columns such as ID, Customer Name, Customer Email Address, and Date.
+
+    Enable Affiliate Referral Information: Select Yes to show Parent Affiliate customer information on the My Account page. Note that the customer account has a Sign Up Account Affiliate, and the Affiliate account has been active.
+
+1.1.2. Default Page​
+
+    Affiliate homepage content
+
+        Select CMS Block for Affiliate homepage content
+
+        The default display is: Affiliate Welcome homepage content
+
+    Affiliate Policy content
+        Select CMS Static Block for Affiliate Policy content
+        The default display is: Affiliate Welcome homepage content
+
+1.1.3. Coupon code
+
+    Allow using Affiliate Code as Coupon: Select YES, so customers can use Affiliate Code as Coupon code on the shopping cart page and checkout page.
+    Coupon Suffix: Enter the Suffix you want to set for the Affiliate Code.
+
+1.1.4. Affiliate URL
+
+    URL Style: Choose the type to display URL
+
+        URL Style = Hash: Display URL as http://example.com#c123
+
+        URL Style = Parameter: Display URL as http://example.com/?c=123
+
+    Custom parameter
+        Enter the letter for the customization of Affiliate URL. Those parameters here will be inserted in front of the Refer code.
+        If this field is left blank, the default value is "u".
+
+    For example: refer code is 123, Custom parameter is ABC
+
+    Hash: http://example.com#abc123
+
+    Parameter: http://example.com/?abc=123
+
+    Parameter value
+
+        Parameter value = Affiliate ID: Display the ID of Affiliate account on the Refer URL link in My Account/ My Affiliate/ Refer Friend outside the frontend. For example: ?u=1 or #u1
+
+        Parameter value = Affiliate Code: Display the code of Affiliate account on the Refer URL link outside the frontend. For example: ?u=b1dc or #ub1dc and display the code of Affiliate account in the Refer Code field in My Account/ My Affiliate/ Refer Friend outside the frontend
+
+    Length of Affiliate code
+
+        Enter the length of Affiliate code
+
+        The default length is 6 characters
+
+        It is recommended to enter a length between 3 and 32 characters to ensure safety
+
+1.2. Account Configuration
+
+1.2.1. Affiliate Sign up
+
+    Default Affiliate Group
+
+        Choose the default group whenever an account is registered as an Affiliate account
+
+        The original default group is General 
+
+    Require admin's approval: Choose No so that when registering as an affiliate account, you don't need to go through the censorship of the store
+
+    Checked "Email notification" by default: Select Yes to automatically check the Receive affiliate email box on the My Account/My Affiliate/Setting tab outside the frontend whenever an account is registered as an Affiliate account.
+
+1.2.2.Terms and Conditions
+
+    Enable Terms and Conditions: Choose Yes to display Terms and Conditions in the Sign Up section, which is outside the frontend
+
+    Checkbox Text: Enter the checkbox text that is in the right of Terms and Conditions checkbox.
+
+    Terms and Conditions Title: Enter the title for Terms and Conditions
+
+    Terms and Conditions Content
+
+        Select CMS Block for Terms and Conditions Content
+
+        The default content is Affiliate terms & conditions
+
+    Checkbox is checked by default: Choose Yes to tick in the checkbox automatically
+
+1.2.3. Account Balance
+
+    Maximum of Affiliate Balance
+
+        Enter the Maximum of Affiliate Balance
+
+        If the affiliate reaches the milestone, none of the commission is added
+
+        If the field is left empty or entered as zero, Affiliate Balance will have no limitation
+
+    Allow negative balance: If Affiliate's account balance is not enough to take back commission, allow the balance to be negative number by choosing Yes in the respective field
+
+1.3. Commission Configuration
+
+This section allows admins to set up the commission calculation process. Admin can set the time for the affiliate to receive a commission, hold commission for a certain number of days or deduct commission when order is canceled.
+
+    Earn commission from tax: Choose Yes to earn commission from tax
+
+    Total Commission Statistics including On Hold Commissions: If yes, commissions that are in On Hold status will also be calculated in the Total Commission column in the Traffic Source Statistic page.
+
+1.3.1. Commission calculation process
+
+    Allow Affiliate receiving commission when Invoice created
+
+        Allow Affiliate receiving commission when Invoice created = Yes: Commissions received when creating an invoice
+
+        Allow Affiliate receiving commission when Invoice created = No: Commissions are only received when the order is in the completed state
+
+    Hold commission transactions for
+
+        Enter the days between commission transactions for accounts. After that period of time, the transaction will no longer be kept
+
+        If the field is blank or entered as 0, the transaction will not be kept
+
+    Deduct commission from Affiliate's balance when the order is refunded/canceled
+
+        Choose Yes to allow deducting the commission from the balance of the branch when the order is refunded or canceled
+
+        The default allows deducting
+
+1.4. Withdrawal Configuration
+
+In this section, the admin can set general conditions for commission withdrawal fees as well as the minimum commission that the affiliate can withdraw. This feature helps affiliates manage commissions transparently, giving them confidence and commitment for the next transactions.
+
+    Allow withdrawal request: Select Yes to display the withdrawal request outside the frontend
+
+    Payment Method
+        There are three withdrawal methods: offline payment, bank transfer, Paypal payment, and store credit. Affiliate extension is completely compatible with Mageplaza Store Credit (v4.0.4 or above for M2.4 | v1.1.9 or above for M2.3 or below) to support withdrawal with the store credit payment.
+        Enter the withdrawal fee for each form of withdrawal. You can enter the charge as a specific amount or a percentage of the total amount withdrawn
+        To allow displaying a withdraw’s form outside the frontend, select Active = Yes corresponding to that form
+
+    The minimum balance in affiliate account for requesting withdrawal
+
+        Enter the minimum balance in the linked account to request a withdraw
+
+        If you leave blank or fill in as 0, you will not be limited when withdrawing
+
+    Minimum withdrawal amount
+
+        Enter the minimum amount for each withdraws
+
+        The withdraw fee will be included here
+
+    Maximum withdrawal amount
+
+        Enter the maximum amount for each withdraws
+
+        The withdraw fee will be included here
+
+1.5. Email Configuration
+
+Admins can set up automatic welcome emails for new affiliates or send instant notification emails to the admin whenever withdrawal requests and registrations are made. In addition, admins can send notification emails to affiliates when there is any change in the affiliate account commission balance. This feature not only helps store owners to know about new members immediately but also provides a means to effectively manage related payment fees.
+
+    Email Sender
+
+        Select the email sender
+
+        The default email sender is: General Contact 
+
+1.5.1 Admin Email
+
+    Send Emails To: Enter the email address so that admin can receive notifications. You can fill in multiple emails and separate them by commas ","
+
+    New Affiliate Sign Up: Select Yes to let admins receive notification emails when a customer signs up for an affiliate program. This will show the Sign up Template field
+
+    New Withdraw Request: Select Yes to let the admin receive a notification email when a customer requests to withdraw. This will show the Withdraw Request Template field.
+
+1.5.2. Account Email
+
+    Send Welcome Email: Choose Yes to send the email when an account is registered as an Affiliate account
+
+    Welcome Email
+
+        Choose the email template sending when an account is registered as an Affiliate account
+
+        The default content of the template is Welcome Email (Default)
+
+    Welcome Email After Account Approved
+
+        Choose the email template sent when the registered account is approved to be an Affiliate account by the store owner
+
+        The default content of the template is Welcome Email After Account Approved (Default)
+
+    Account Rejection: Select Yes to send an email to the customer whose request to register for an affiliate account is rejected. This shows the Account Rejection Template field
+
+    Account Change Status: Select Yes to email the customer when the status of the affiliate account changes. This shows the Account Change Status Template field
+
+    Withdraw Cancel Email: Select Yes to email the customer when the customer's withdraw request is canceled. This shows the Withdraw Cancel Template field
+
+1.5.3. Transaction Email` section
+
+    Send Transaction Email: Select Yes to send a notification email whenever there is a transaction
+
+    Update Balance Email
+
+        Select the sending email template when there is a change in the balance
+
+        The default content of the template is Update Balance Email (Default)
+
+1.5.4. Withdrawal Email
+
+    Send Withdrawal Email: Select Yes to send a notification email when you withdraw money
+
+    Withdrawal Complete Email
+
+        Select the sending email template when there is a change in the balance
+
+        The default content of the template is Withdraw Complete Email (Default)
+
+1.5.5. Campaign Email
+
+    Send New Campaign Email: Select Yes to send a New Campaign Email to the affiliate account when a new campaign is created and that affiliate account must meet the campaign conditions.
+    The receiver will receive the email as this form
+
+    Send Expired Campaign Email: Select Yes to Send Expired Campaign Template to the affiliate account when the campaign expires and that affiliate account must meet the campaign conditions
+    The Expired Campaign Template will be in this form:
+
+Note: These emails will be sent at 0 a.m. every day.
+1.6. Refer Friends Configuration
+
+In this section, admins can set up the format and rules for generating referral links for affiliates to share, determine the commission level that the affiliate will receive when the referred person completes an order, manage the cookie duration of the referred person, determine the time period for which their orders are credited to the referring affiliate, or limit the sharing channels such as email, social networks, etc., that affiliate can use to send referral links. These settings help admins control how and to what extent they are rewarded when partners refer new customers.
+
+    Enable Refer Friends Feature: Choose Yes to activate the introduce to friends function
+
+    Refer Sharing Email
+
+        Choose the email template that will be sent when introducing friends through email
+
+        The default content of the template is Affiliate Sharing Email (Default)
+
+    Default Refer URL
+
+        Insert the referral link. This link will display in the My Account/My Affiliate/Refer Friend tab
+
+        If empty, the default homepage URL will be used.
+
+    ShareThis.com Property ID
+        Enter the Property ID to identify your ShareThis property.
+        If empty, default Public ShareThis ID 65435143043d5c0012cc72df will be used
+        Instructions on how to get property values can be foun here
+
+    ShareThis.com Tool
+        Select your Enabled Engine under Property ID. Because each Property ID corresponds to a different domain, if your tool does not belong to the entered Property ID, the social refer friend section will not work. 
+
+    Use Cloudsponge to retrieve email contacts: Select Yes to allow access to contacts from the customer's account, such as Gmail, Yahoo, Live, AOL, Outlook, etc.
+
+    Cloudsponge Key
+
+        Enter the Cloudsponge key
+
+        The default key used is a473483c2e256bd812bdc9a0bac867ecf1999a54
+
+    Enable Referral via Social Networks on Product Listing Page: If Yes, the Referral via Social Networks will be displayed on the product listing page, helping customers to share and introduce to their friends to join the campaigns and get certain promotions.
+
+    Enable Referral via Social Networks on Product Details Page: If Yes, Referral via Social Networks will be displayed on the product details page.
+
+Note: As AddThis.com no longer supports, the features in this section have accordingly stopped working since May 31st, 2023.
+
+1.6.1. Sending Email Content
+
+    Default Subject Email
+
+        Enter a title for the sending email
+
+        The default title is Good product and services
+
+    Default Email Body
+
+        Enter the content for the sending email
+
+        The default content is I've been shopping at {{store_name}} and feel really happy. They provide good service and reasonable prices.
+
+1.7. Credit Balance Chart
+
+The admin can change the background color and border color of the balance chart in the balance report table on the My Affiliate page.
+2. Manage Accounts
+
+This section allows admins to display affiliate account information: account balance, total earnings, account activity status, etc. You can click the Edit link to view account details.
+
+From the Admin panel, go to Marketing > Affiliate > Manage Accounts
+2.1. Manage Grid
+
+    Display Affiliate account information: account balance, total earned amount, account activity status, etc. Click Edit link to see the account details.
+
+    In this panel, the admin can delete the account by clicking on the account checkbox, then choose Action > Delete
+
+2.2. Mass action: change affiliate group
+
+Admin can change the affiliate group with one click:
+
+2.3. Add New Account
+
+    Account: Choose account
+
+    Affiliate Group: Select the group for the created Affiliate account
+
+    Referred By: Enter the ID of the previously registered Affiliate account
+
+    Status
+        Status = Active: The Affiliate account which is just created can start working now
+        Status = Inactive: The Affiliate account which is just created can't start working yet
+        Status = Need Approved: The affiliate account that is just created needs to be approved by the admin
+
+    Email Notification: Choose Yes to receive notification emails when there is a change in your Affiliate account balance
+
+2.4. Edit Account
+
+Admin can edit the account and check the transaction log of the affiliate account here:
+
+3. Affiliate Groups
+
+Here, the admin can manage affiliate marketing groups according to specific rules and terms in 1 table. Store owners can divide affiliate partners into different groups based on criteria such as sales, performance, or campaigns they participate in and then set different commission levels. This brings more flexibility and efficiency in marketing programs.
+
+From the Admin panel, go to Mageplaza Marketing > Affiliate > Affiliate Groups​
+3.1. Manage Grid
+
+    There are five default groups: General, Bronze, Silver, Gold, Platinum
+
+3.2. Add New Group
+
+    Name
+
+        Insert the group name
+
+        This field is compulsorily required 
+
+4. Campaigns
+
+The admin can create campaigns, conditions for campaigns, actions, and the amount of commission that affiliates can receive from each campaign here.
+
+From the Admin panel, go to Mageplaza Marketing > Affiliate > Campaigns
+4.1 Edit Campaigns
+
+    Step 1: Fill in the Campaign Information
+    Step 2: Choose the conditions for applying the campaign
+    Step 3: Set up Actions
+
+Step 1: Fill in the Campaign Information
+
+Campaign Information​
+
+    Name
+
+        Name your campaign
+
+        This is a required field
+
+    Description: Fill in the description of your campaign
+
+    Status: Select Enable to apply the campaign
+
+    Website IDs
+        Choose the website to conduct the campaign
+        This is also a required field
+
+    Affiliate Groups
+        Choose the group you want to conduct the campaign
+        This is another required field
+
+    Display
+        Display = Allow Guest: Show the campaign for all visitors
+        Display = Affiliate Member Only: Show the campaign for Affiliate only
+
+    Active From Date: Select the starting day for your campaign
+
+    Active To Date: Select the finishing day for your campaign
+
+    Priority: Enter the number of priorities for each campaign. If the conditions are met, the campaign with the lowest priority will be applied.
+
+Campaign Referral Link
+
+This includes the Referral Link field to create referral links for the campaign. If left blank, it will default to the only link placed in the Configuration section.
+
+Step 2: Choose the conditions for applying the campaign
+
+    You can choose the products for a specific campaign by setting the rules for those products
+    Or you can also choose the categories for applying the campaign
+    If you satisfy the conditions in the cart and the conditions here (for each specific item), you will receive a discount and commission
+
+Step 3: Set up the Action
+
+    Choose the rule for each item matching the following conditions
+    Leave it blank if the rule is for all items.
+
+Set up Discount
+
+    Apply
+        Apply = Percent of product price discount: Apply discount for the percentage of each product price
+        Apply = Fixed amount discount for product: Apply a fixed discount for purchasing
+
+    Discount value: Insert the amount or the percentage of discount for purchasing
+
+    Apply to Shipping Amount: Choose Yes to apply discount for shipping
+
+    Discount Description: Insert the description for your discount policy
+
+Set up the Commission​
+
+This section allows to configure the Tiers. You can choose one or add more tiers as follows:
+
+    Pay per commission: Pay per sale is the default option for this field.
+
+    There are two commission types:
+        Percentage of product price: Commission is calculated based on the percentage of each product price
+        Fixed amount: Commission is a fixed amount
+
+    Choose type and value of commission in the 1st order and the next orders. You can set them to the same or separate option depending on your strategy.
+
+4.2 Add New Campaigns
+
+    Step 1: Fill in the Campaign Information
+    Step 2: Choose the conditions for applying the campaign
+    Step 3: Set up Discount
+
+Step 1: Fill in the Campaign Information
+
+Campaign Information​
+
+    Name
+
+        Name your campaign
+
+        This is a required field
+
+    Description: Fill in the description of your campaign
+
+    Status: Select yes to apply the campaign
+
+    Website IDs
+        Choose the website to conduct the campaign
+        This is also a required field
+
+    Affiliate Groups
+        Choose the group you want to conduct the campaign
+        This is another required field
+
+    Display
+        Display = Allow Guest: Show the campaign for all visitors
+        Display = Affiliate Member Only: Show the campaign for Affiliate only
+
+    Active From Date: Select the starting day for your campaign
+
+    Active To Date: Select the finishing day for your campaign
+
+    Priority: Enter the number of priorities for each campaign. If the conditions are met, the campaign with the lowest priority will be applied.
+
+Campaign Referral Link
+
+This includes the Referral Link field to create referral links for the campaign. If left blank, it will default to the only link placed in the Configuration section.
+
+Step 2: Choose the conditions for applying the campaign
+
+    You can choose the products for a specific campaign by setting the rules for those products
+
+    Or you can also choose the categories for applying the campaign
+
+Step 3: Set up the Action
+
+    Choose the rule for each item matching the following conditions
+    Leave it blank if the rule is for all items.
+    From the Affiliate Pro, it applies multi-tier: for each item in a campaign, you can receive discounts and commissions according to different tiers
+
+Set up Discount
+
+    Apply
+        Apply = Percent of product price discount: Apply discount for the percentage of each product price
+        Apply = Fixed amount discount for product: Apply a fixed discount for purchasing
+
+    Discount value: Insert the amount or the percentage of discount for purchasing
+
+    Apply to Shipping Amount: Choose Yes to apply discount for shipping
+
+    Discount Description: Insert the description for your discount policy
+
+Set up the Commission
+
+This section allows to configure the Tiers. You can choose one or add more tiers as follows:
+
+    Pay per commission: Pay per sale is the default option for this field.
+
+    There are two commission types:
+        Percentage of product price: Commission is calculated based on the percentage of each product price
+        Fixed amount: Commission is a fixed amount
+
+    Choose the type and value of commission in the 1st order and the next orders. You can set them to the same or separate options depending on your strategy.
+
+5. Withdraws
+
+This section allows the admin to manage affiliate commission withdrawal history and edit, add, delete, or change withdrawal history.
+5.1. Manage Grid
+
+    Allow showing the withdraw history of each Affiliate account, including The amount, the status, payment method, etc. Click Edit to see the details of each withdraw.
+    Admins can also change the status or delete the withdraw history.

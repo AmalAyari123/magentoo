@@ -1,0 +1,42 @@
+[
+    {
+        "name": "mageplaza/module-core",
+        "version": "1.5.10",
+        "version_normalized": "1.5.10.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mageplaza/module-core.git",
+            "reference": "64fc245876d9e1d5d6dd9d44963e641cc3c81e29"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/mageplaza/module-core/zipball/64fc245876d9e1d5d6dd9d44963e641cc3c81e29",
+            "reference": "64fc245876d9e1d5d6dd9d44963e641cc3c81e29",
+            "shasum": ""
+        },
+        "time": "2025-01-10T03:40:31+00:00",
+        "type": "magento2-module",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "registration.php"
+            ],
+            "psr-4": {
+                "Mageplaza\\Core\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "proprietary"
+        ],
+        "authors": [
+            {
+                "name": "Mageplaza",
+                "email": "support@mageplaza.com",
+                "homepage": "https://www.mageplaza.com",
+                "role": "Technical Support"
+            }
+        ],
+        "description": "Mageplaza Core for Magento 2"
+    }
+]

@@ -1,0 +1,5 @@
+{
+    "require": {
+        "mageplaza/module-core": "^1.5"
+    }
+}
