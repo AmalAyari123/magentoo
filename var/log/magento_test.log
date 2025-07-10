@@ -1,0 +1,5 @@
+2025-07-01 01:35:13 - Magento logger test started
+2025-07-01 01:35:13 [info] This is an INFO message
+2025-07-01 01:35:13 [error] This is an ERROR message
+2025-07-01 01:35:13 [debug] This is a DEBUG message
+2025-07-01 01:35:13 [warning] This is a WARNING message
